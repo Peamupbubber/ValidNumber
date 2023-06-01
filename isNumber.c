@@ -2,25 +2,6 @@
 
 char* currentString;
 
-/* Solution: Recursive descent parser with scanner and matching tokens.
- *
- * The grammer:
- * S  -> I E | D E | e
- * I  -> A DIGITS
- * D  -> A DP
- * A  -> SIGN | e
- * DP -> DIGITS DOT | DIGITS DOT DIGITS | DOT DIGITS
- * E  -> SCI I | e
- *
- * The tokens are:
- * SIGN   -> [+-]
- * DIGITS -> [0-9][0-9]*
- * DOT    -> [.]
- * SCI    -> [eE]
- * EMPTY  -> []
- * ERR    -> .
-*/
-
 /* Gets the next token from the current string */
 token scan() {
     if(!strlen(currentString))
