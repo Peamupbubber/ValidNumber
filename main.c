@@ -1,11 +1,11 @@
 #include <stdio.h>
-#include "isNumber.h"
+#include "validNumber.h"
 
 void main(int argc, char* argv[]) {
     if(argc == 1)
-        printf("No args!\n");
+        printf("Usage: ./isNumber \"input\" ... \n");
     else {
-        printf("--- isNumber matching ---\n");
+        printf("--- Valid Number Matching ---\n");
         for(int i = 1; i < argc; i++) {
             printf("%s: %s\n", argv[i], isNumber(argv[i]) ? "true" : "false");
         }

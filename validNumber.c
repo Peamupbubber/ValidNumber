@@ -1,4 +1,4 @@
-#include "isNumber.h"
+#include "validNumber.h"
 
 char* currentString;
 

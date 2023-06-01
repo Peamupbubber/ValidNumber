@@ -1,5 +1,5 @@
-make: main.c isNumber.c isNumber.h
-	gcc -o isNumber main.c isNumber.c isNumber.h
+make: main.c validNumber.c validNumber.h
+	gcc -o validNumber main.c validNumber.c validNumber.h
 
-clean: isNumber
-	rm isNumber
+clean: validNumber
+	rm validNumber
