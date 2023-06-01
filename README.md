@@ -12,10 +12,10 @@ A  -> SIGN | e
 DP -> DIGITS DOT | DIGITS DOT DIGITS | DOT DIGITS  
 E  -> SCI I | e  
 
-The scanner tokens are:
-SIGN   -> [+-]
-DIGITS -> [0-9][0-9]*
-DOT    -> [.]
-SCI    -> [eE]
-EMPTY  -> []
-ERR    -> .
+The scanner tokens are:  
+SIGN   -> [+-]  
+DIGITS -> [0-9][0-9]*  
+DOT    -> [.]  
+SCI    -> [eE]  
+EMPTY  -> []  
+ERR    -> .  
