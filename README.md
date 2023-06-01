@@ -1,4 +1,4 @@
-# isNumber
+# Valid Number
 
 My solution to the Valid Number Leetcode challenge [here](https://leetcode.com/problems/valid-number/).
 
