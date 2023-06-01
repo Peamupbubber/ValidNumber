@@ -1,6 +1,6 @@
 # isNumber
 
-My solution to the Valid Number Leetcode challenge [here](https://leetcode.com/problems/valid-number/)
+My solution to the Valid Number Leetcode challenge [here](https://leetcode.com/problems/valid-number/).
 
 I converted the given prompt into a context-free grammer and built a recursive descent parser to handle the cases.
 
