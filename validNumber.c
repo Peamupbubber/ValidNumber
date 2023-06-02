@@ -41,7 +41,7 @@ bool match(token t) {
  * S -> I E
  * S -> D E
 */
-bool isNumber(char * s){
+bool isNumber(char * s) {
     currentString = s;
     if(match(EMPTY)) return true;
     
@@ -76,6 +76,7 @@ bool D() {
     return DP();
 
 }
+
 /* A -> SIGN
  * A -> e
 */
